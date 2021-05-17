@@ -15,12 +15,12 @@ public class ControllerAdviceHandler {
     @ResponseStatus(HttpStatus.ACCEPTED)
     @ExceptionHandler(value = MyCheckedException.class)
     public ResponseEntity<String> handleMyCheckedException(MyCheckedException myCheckedException) {
-        return new ResponseEntity<>("Works, but you are stupid", HttpStatus.ACCEPTED);
+        return new ResponseEntity<>("Controller Advice works and throws checked Exception", HttpStatus.ACCEPTED);
     }
 
     @ResponseStatus(HttpStatus.OK)
     @ExceptionHandler(value = MyUncheckedException.class)
     public ResponseEntity<String> handleMyUncheckedException(MyUncheckedException myCheckedException) {
-        return new ResponseEntity<>("Works, but now I know", HttpStatus.OK);
+        return new ResponseEntity<>("Controller Advice works and throws unchecked Exception", HttpStatus.OK);
     }
 }
