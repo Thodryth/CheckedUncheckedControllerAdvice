@@ -21,14 +21,14 @@ public class MyController {
 
     @GetMapping("/checked")
     public ResponseEntity<String> myCheckedException() throws MyCheckedException {
-        String stuff = myService.checked(false);
-        return new ResponseEntity<>(stuff, HttpStatus.OK);
+        myService.checked();
+        return new ResponseEntity<>("Never Happens cause of checked Exception", HttpStatus.OK);
     }
 
     @GetMapping("/unchecked")
     public ResponseEntity<String> myUncheckedException() {
-        String stuff = myService.unchecked(false);
-        return new ResponseEntity<>(stuff, HttpStatus.OK);
+        myService.unchecked();
+        return new ResponseEntity<>("Never Happens cause of unchecked Exception", HttpStatus.OK);
     }
 
     @GetMapping("/alive")

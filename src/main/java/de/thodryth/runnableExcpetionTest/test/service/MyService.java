@@ -12,22 +12,12 @@ public class MyService {
 
     Logger logger = LoggerFactory.getLogger(MyService.class);
 
-    public String checked(boolean bool) throws MyCheckedException {
-        if (bool == true) {
-            return "Nix geworfen";
-        } else {
-            logger.info("Else is called and checked will be throwen");
-            throw new MyCheckedException("MyCheckedException");
-        }
+    public void checked() throws MyCheckedException {
+        throw new MyCheckedException("Controller Advice works and throws checked Exception");
     }
 
-    public String unchecked(boolean bool) {
-        if (bool == true) {
-            return "Nix geworfen";
-        } else {
-            logger.info("Else is called and unchecked will be throwen");
-            throw new MyUncheckedException("MyUncheckedException");
-        }
+    public void unchecked() {
+        throw new MyUncheckedException("Controller Advice works and throws unchecked Exception");
     }
 
 }
