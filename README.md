@@ -1,2 +1,2 @@
 # CheckedUncheckedControllerAdvice
-Example for Checked and Unchecked in Connection with ControllerAdvice
+Example for Checked and Unchecked Exceptions using ControllerAdvice
