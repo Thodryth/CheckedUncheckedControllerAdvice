@@ -2,6 +2,7 @@ de/thodryth/runnableExcpetionTest/test/controller/config/ControllerAdviceHandler
 de/thodryth/runnableExcpetionTest/test/service/exceptions/MyUncheckedException.class
 de/thodryth/runnableExcpetionTest/test/service/exceptions/MyCheckedException.class
 de/thodryth/runnableExcpetionTest/test/controller/MyController.class
+de/thodryth/runnableExcpetionTest/test/service/exceptions/MyExceptionWrapper.class
 de/thodryth/runnableExcpetionTest/test/controller/config/WebMvcConfig.class
 de/thodryth/runnableExcpetionTest/test/TestApplication.class
 de/thodryth/runnableExcpetionTest/test/service/MyService.class

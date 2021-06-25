@@ -31,6 +31,12 @@ public class MyController {
         return new ResponseEntity<>("Never Happens cause of unchecked Exception", HttpStatus.OK);
     }
 
+    @GetMapping("/wrapepd")
+    public ResponseEntity<String> myWrappedException() {
+        myService.wrapMyCheckedException();
+        return new ResponseEntity<>("Never Happens cause of unchecked Exception", HttpStatus.OK);
+    }
+
     @GetMapping("/alive")
     public ResponseEntity<String> test() {
         return new ResponseEntity<>("The Service is alive", HttpStatus.OK);

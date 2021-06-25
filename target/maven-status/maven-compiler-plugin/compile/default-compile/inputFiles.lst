@@ -5,3 +5,4 @@
 /Users/christopher/Coding/playground/Java_Code_Examples/CheckedUncheckedControllerAdvice/src/main/java/de/thodryth/runnableExcpetionTest/test/controller/config/WebMvcConfig.java
 /Users/christopher/Coding/playground/Java_Code_Examples/CheckedUncheckedControllerAdvice/src/main/java/de/thodryth/runnableExcpetionTest/test/controller/config/ControllerAdviceHandler.java
 /Users/christopher/Coding/playground/Java_Code_Examples/CheckedUncheckedControllerAdvice/src/main/java/de/thodryth/runnableExcpetionTest/test/service/MyService.java
+/Users/christopher/Coding/playground/Java_Code_Examples/CheckedUncheckedControllerAdvice/src/main/java/de/thodryth/runnableExcpetionTest/test/service/exceptions/MyExceptionWrapper.java
